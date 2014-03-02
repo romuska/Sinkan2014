@@ -1,5 +1,16 @@
-div{
-    font-size:100%;
+.section{
     text-align: center;
-    padding-top: 400px;
+}
+
+.left-in{
+    position: absolute;
+    top: 50%;
+}
+
+.left-in p{
+    position: absolute;
+}
+
+#ptxt1{ 
+    left: 100%;
 }
