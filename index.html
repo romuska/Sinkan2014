@@ -11,33 +11,24 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <script src="./js/jquery.fullPage.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $.fn.fullpage({
-                slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                onLeave: function(index, direction){
-                    if(index == 1 && direction == 'down'){
-                        $('.left-in').animate({'left': '20%'}, 1000);
-                    }
-                },
-            });
-        });
-    </script>
+    <script src="./js/script.js"></script>
 
 </head>
 <body>
-    <div class="section active">
+    <div class="section ">
         <h1>XMLProとは</h1>
-        <div class="left-in">
-            <p>移動する</p>
+        <div class="parallax">
+            移動する
         </div>
     </div>
     <div class="section">
         <h1>すごいせつめい</h1>
-        <div class="left-in">
-            <p id="ptxt">テスト</p>
+        <div class="parallax">
+            <div id="pg2_txt1">
+                とってもすごい説明がそれなりに長い内容で書かれているよ
+            </div>
         </div>
+        <p>要素ごとの関係のテスト</p>
    </div>
     <div class="section">
         <h1>すごい成果物</h1>
