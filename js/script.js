@@ -10,9 +10,9 @@ $(document).ready(function() {
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
         onLeave: function(index, direction){
             if(index == 1 && direction == 'down'){
-                $('#pg2_txt1').animate({'left': '50%'}, 1000);
+                $('t1').animate({'left': '50%'}, 1000);
             }else if(index == 2 && direction == 'up'){
-                $('#pg2_txt1').animate({'left': '100%'}, 1000);
+                $('t1').animate({'left': '100%'}, 1000);
             }
         },
     });

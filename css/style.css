@@ -45,14 +45,17 @@ q:before,q:after {
     text-align: center;
 }
 h1{
-    font-size: 8em;
+    font-size: 7em;
+}
+p{
+    font-size: 3em;
 }
 
 .parallax{
     left: 50%;
 }
 
-#pg2_txt1{
+.aaaaaaa{
     position: absolute;
     left: 100%;
 }
