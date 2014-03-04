@@ -60,3 +60,36 @@ p{
     left: 100%;
 }
 
+#pg2_title, #pg2_txt1, #pg2_txt2, #pg2_txt3, #pg2_img{
+    position: absolute;
+    white-space: nowrap;
+}
+
+#pg2_title{
+    width: 80%;
+    left: 10%;
+    top: 5%;
+}
+#pg2_txt1{
+    left: 100%;
+    top: 25%;
+}
+#pg2_txt2{
+    left: 100%;
+    top: 35%;
+}
+#pg2_txt3{
+    left:100%;
+    top: 45%;
+}
+#pg2_img{
+    width: 50%;
+    height:auto;
+    top: 20%;
+    left: 50%;
+}
+@media screen and (max-width: 1024px){
+    #pg2_img{
+        top: 70%;
+    }
+}
